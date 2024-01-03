@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Varela Round";
+}
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hope h1{
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+    color: #A3B763;
+    letter-spacing: 4px;
+}
+input 
+{
+    /* display: inline;
+    justify-content: space-between; */
+    padding-left: 7px;
+    border-radius: 15px;
+    border-style: none;
+    outline: 0;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(235, 231, 235);
+    width: 180px;
+}
+.container{
+    height: 500px;
+    width: 500px;
+}
+.flamesBox{
+    background-color: #8EACCD;
+    height: 80%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+h1
+{
+    letter-spacing: 15px;
+    text-decoration: underline;
+    color: #79AC78;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+.inputfeild
+{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+.submit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+button
+{
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    outline: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.result1
+{
+    display: flex;
+    /* display: initial ! important; */
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 20%;
+    background-color: #8EACCD;
+}
