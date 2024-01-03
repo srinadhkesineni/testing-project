@@ -52,7 +52,7 @@ function countOccurrences_(name,boyObj) {
     console.log(nameObject)
     return nameObject;
 }
-
+//this function is used to calculate number of characters mismatched and extra characters between two names 
 function calculateFlames(boyObject, girlObject) {
     let count = 0;
     for (let key in boyObject) {
